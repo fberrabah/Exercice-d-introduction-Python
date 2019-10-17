@@ -10,20 +10,20 @@ try: 12/0
 except:
     print (3*3 ,"Impossible de diviser par 0" ,4+9+78 ,12-7, 5e4)
 
-#exercice3
+#Message de bienvenue
 print("Exercice 3\n")
 choix=input('Bonjour indiquer votre nom et prénom :')
 print(" Bienvenue " ""  + choix)    
-#exercice4
+#Nom et prenom
 print("Exercice 4\n")
 nom = "Berrabah"
 prenom = "Farid"
 print("Bonjour {} {}" .format(nom,prenom))
-#exercie5
+#interger!
 print("Exercice 5\n")
 myNumber = "123"
 print(int (myNumber))
-#exercice6
+#majuscule MINUSCULE 
 print("Exercice 6\n")
 mot=input('Bonjour écriver votre text :')
 print(mot.upper())
