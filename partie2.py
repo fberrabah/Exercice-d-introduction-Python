@@ -54,6 +54,6 @@ print(prénom[0]+prénom[-1])
 print(nom[0]+nom[-1]) 
 print(prénom[0]+prénom[-1]+nom[0]+nom[-1])
 
-age = float(input ("Entrer votre age:"))
+age = int(input ("Entrer votre age:"))
 total=round(age/33)
 print("votre age divisé par 33 est :{}".format(total))
